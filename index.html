@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0"> -->
+    <title>룩핀</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slick.css">
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
+            integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <!-- <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+    <script src="js/script.js"></script>
+    <script src="js/slick.min.js"></script>
+</head>
+<body>
+
+<main>
+    <header>
+        <div class="hed-inner">
+            <div class="hed">
+                <h1 class="logo"><a href="#"><img src="img/main_logo.png" alt="룩핀 로고"></a></h1>
+                <nav class="gnb">
+                    <ul>
+                        <li><a href="#">BEST</a></li>
+                        <li><a href="#">NEW</a></li>
+                        <li><a href="#">STYLE</a></li>
+                        <li><a href="#">STORE</a></li>
+                        <li><a href="#">EVENT</a></li>
+                    </ul>
+                </nav>
+                <nav class="menu">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <img src="img/join_icon.png" alt="회원가입 아이콘">
+                                <span>JOIN</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/login_icon.png" alt="로그인 아이콘">
+                                <span>LOGIN</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="img/shopping_icon.png" alt="장바구니 아이콘">
+                                <span>0</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <figure id="slide_section">
+        <ul class="slide">
+            <li><a href="#"><img src="img/banner1.jpg" alt="첫번째 배너"></a></li>
+            <li><a href="#"><img src="img/banner2.jpg" alt="두번째 배너"></a></li>
+            <li><a href="#"><img src="img/banner3.jpg" alt="세번째 배너"></a></li>
+            <li><a href="#"><img src="img/banner4.jpg" alt="네번째 배너"></a></li>
+            <li><a href="#"><img src="img/banner5.jpg" alt="다섯번째 배너"></a></li>
+            <li><a href="#"><img src="img/banner6.jpg" alt="여섯번째 배너"></a></li>
+            <li><a href="#"><img src="img/banner7.jpg" alt="일곱번째 배너"></a></li>
+        </ul>
+
+        <div class="bannerbtn_section">
+
+        </div>
+
+        <div class="left_arrow"><img src="img/left_arrow.png" alt="메인배너 왼쪽버튼"></div>
+        <div class="right_arrow"><img src="img/right_arrow.png" alt="메인배너 오른쪽버튼"></div>
+    </figure>
+
+    <div id="search_section">
+        <div class="tap_btn">
+            <div class="active type1">상품</div>
+            <div class="type2">스토어</div>
+        </div>
+
+        <div class="searchbar">
+            <input type="text" placeholder="상품을 검색해 보세요." class="search_bar">
+        </div>
+
+        <div class="search_icon">
+            <a href="#"><img src="img/search_icon.png" alt="돋보기 아이콘"></a>
+        </div>
+    </div>
+    <!-- search end -->
+
+    <div id="category-bar">
+        <img src="img/left_arrow2.png" alt="카테고리 왼쪽버튼">
+        <div class="category">
+            <div class="category-box">
+                <a href="#"><img src="img/top.png" alt="상의 아이콘"></a>
+            </div>
+            <a href="#"><span>상의</span></a>
+        </div>
+        <div class="category">
+            <div class="category-box">
+                <a href="#"><img src="img/outer.png" alt="아우터 아이콘"></a>
+            </div>
+            <a href="#"><span>아우터</span></a>
+        </div>
+        <div class="category">
+            <div class="category-box">
+                <a href="#"><img src="img/pants.png" alt="바지 아이콘"></a>
+            </div>
+            <a href="#"><span>하의</span></a>
+        </div>
+        <div class="category">
+            <div class="category-box">
+                <a href="#"><img src="img/shoes.png" alt="신발 아이콘"></a>
+            </div>
+            <a href="#"><span>신발</span></a>
+        </div>
+        <div class="category">
+            <div class="category-box">
+                <a href="#"><img src="img/backpack.png" alt="가방 아이콘"></a>
+            </div>
+            <a href="#"><span>가방</span></a>
+        </div>
+        <div class="category">
+            <div class="category-box">
+                <a href="#"><img src="img/necklace.png" alt="목걸이 아이콘"></a>
+            </div>
+            <a href="#"><span>목걸이</span></a>
+        </div>
+        <div class="category">
+            <div class="category-box">
+                <a href="#"><img src="img/perfume.png" alt="향수 아이콘"></a>
+            </div>
+            <a href="#"><span>뷰티</span></a>
+        </div>
+        <img src="img/right_arrow2.png" alt="카테고리 오른쪽버튼">
+    </div>
+    <!-- category-bar end -->
+
+    <div id="bestStyle">
+        <div class="inner">
+            <div class="leftBox">
+                <h2>best style</h2>
+                <p>
+                    핀을 많이 받은!<br>
+                    인기가 넘치는 코디들!<br>
+                    지금 만나보세요!
+                </p>
+            </div>
+
+            <div class="rightBox">
+                <ul>
+                    <li>
+                        <a href="#"><img src="img/beststyle1.jpg" alt="BESTSTYLE 첫번째 코디"></a>
+                        <h3>
+                            <img src="img/heart.png" alt="하트모양 아이콘">
+                            <span>겨울까지 데일리 야상코디</span>
+                        </h3>
+                        <ul class="tag">
+                            <li>#데일리룩</li>
+                            <li>#캠퍼스룩</li>
+                            <li>#미니멀</li>
+                            <li>#캐주얼</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/beststyle2.jpg" alt="BESTSTYLE 두번째 코디"></a>
+                        <h3>
+                            <span>주문폭주! 2만원대완벽 코디</span>
+                        </h3>
+                        <ul class="tag">
+                            <li>#데일리룩</li>
+                            <li>#캠퍼스룩</li>
+                            <li>#캐주얼</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/beststyle3.jpg" alt="BESTSTYLE 세번째 코디"></a>
+                        <h3>
+                            <span>19800원 최저가 남친룩</span>
+                            <img src="img/blackheart.png" alt="검은색 하트 아이콘">
+                        </h3>
+                        <ul class="tag">
+                            <li>#캐주얼</li>
+                            <li>#미니멀</li>
+                            <li>#캠퍼스룩</li>
+                            <li>#데이트룩</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/beststyle4.jpg" alt="BESTSTYLE 네번째 코디"></a>
+                        <h3>
+                            <img src="img/maple.png" alt="단풍 아이콘">
+                            <span>찬바람 불 때 입기 좋은 코디</span>
+                        </h3>
+                        <ul class="tag">
+                            <li>#댄디</li>
+                            <li>#데일리룩</li>
+                            <li>#미니멀</li>
+                            <li>#캐주얼</li>
+                            <li>#스트릿</li>
+                            <li>#데이트룩</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/beststyle5.jpg" alt="BESTSTYLE 다섯번째 코디"></a>
+                        <h3>
+                            <img src="img/like.png" alt="좋아요 아이콘">
+                            <span>핏감 완벽! 니트 코디</span>
+                            <img src="img/leaf.png" alt="잎 아이콘">
+                        </h3>
+                        <ul class="tag">
+                            <li>#데일리룩</li>
+                            <li>#댄디</li>
+                            <li>#미니멀</li>
+                            <li>#캐주얼</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#"><img src="img/beststyle6.jpg" alt="BESTSTYLE 여섯번째 코디"></a>
+                        <h3>
+                            <span>단독특가<img src="img/star.png" alt="별아이콘"> 데일리 패딩조끼 코디</span>
+                        </h3>
+                        <ul class="tag">
+                            <li>#캐주얼</li>
+                            <li>#데일리룩</li>
+                            <li>#캠퍼스룩</li>
+                            <li>#데이트룩</li>
+                            <li>#미니멀</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--    bestStyle End-->
+
+    <div id="logoSlide_section">
+        <div class="slide_inner">
+            <div class="logoLeft">
+                <div class="inner">
+                    <div><img src="img/dsperoLogo.jpg" alt="디스페로 로고"></div>
+                    <div><img src="img/rodentyRogo.jpg" alt="로덴티 로고"></div>
+                    <div><img src="img/byslimLogo.jpg" alt="바이슬림 로고"></div>
+                    <div><img src="img/orderLogo.jpg" alt="오더클로젯 로고"></div>
+                    <div><img src="img/adukLogo.jpg" alt="어둑 로고"></div>
+                    <div><img src="img/youareLogo.jpg" alt="유아굿 로고"></div>
+                    <div><img src="img/mantimeLogo.jpg" alt="맨타임 로고"></div>
+                    <div><img src="img/erulLogo.jpg" alt="이룰 로고"></div>
+                    <div><img src="img/dsperoLogo.jpg" alt="디스페로 로고"></div>
+                    <div><img src="img/rodentyRogo.jpg" alt="로덴티 로고"></div>
+                    <div><img src="img/byslimLogo.jpg" alt="바이슬림 로고"></div>
+                    <div><img src="img/orderLogo.jpg" alt="오더클로젯 로고"></div>
+                    <div><img src="img/adukLogo.jpg" alt="어둑 로고"></div>
+                    <div><img src="img/youareLogo.jpg" alt="유아굿 로고"></div>
+                    <div><img src="img/mantimeLogo.jpg" alt="맨타임 로고"></div>
+                    <div><img src="img/erulLogo.jpg" alt="이룰 로고"></div>
+                </div>
+            </div>
+            <div class="logoRight">
+                <div class="inner">
+                    <div><img src="img/vansLogo.jpg" alt="반스 로고"></div>
+                    <div><img src="img/nikeLogo.png" alt="나이키 로고"></div>
+                    <div><img src="img/filaLogo.jpg" alt="필라 로고"></div>
+                    <div><img src="img/carhaLogo.jpg" alt="칼하트 로고"></div>
+                    <div><img src="img/converseLogo.jpg" alt="컨버스 로고"></div>
+                    <div><img src="img/championLogo.jpg" alt="챔피온 로고"></div>
+                    <div><img src="img/tommyLogo.jpg" alt="타미 로고"></div>
+                    <div><img src="img/snrdLogo.jpg" alt="애스앤알디 로고"></div>
+                    <div><img src="img/vansLogo.jpg" alt="반스 로고"></div>
+                    <div><img src="img/nikeLogo.png" alt="나이키 로고"></div>
+                    <div><img src="img/filaLogo.jpg" alt="필라 로고"></div>
+                    <div><img src="img/carhaLogo.jpg" alt="칼하트 로고"></div>
+                    <div><img src="img/converseLogo.jpg" alt="컨버스 로고"></div>
+                    <div><img src="img/championLogo.jpg" alt="챔피온 로고"></div>
+                    <div><img src="img/tommyLogo.jpg" alt="타미 로고"></div>
+                    <div><img src="img/snrdLogo.jpg" alt="애스앤알디 로고"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="rank">
+            <div class="rank-box">
+                <div class="brandLeft">
+                    <div class="brand">
+                        <h3>브랜드 순위</h3>
+                        <a href="#"><p>더보기</p></a>
+                    </div>
+                    <div class="brand-rank">
+                        <ul>
+                            <li>
+                                <a href="#"><span>1.</span>반스</a>
+                            </li>
+                            <li>
+                                <a href="#"><span>2.</span>나이키</a>
+                            </li>
+                            <li>
+                                <a href="#"><span>3.</span>엑스컨테이너</a>
+                            </li>
+                            <li>
+                                <a href="#"><span>4.</span>그랜디오시티</a>
+                            </li>
+                            <li>
+                                <a href="#"><span>5.</span>컨버스</a>
+                            </li>
+                            <li>
+                                <a href="#"><span>6.</span>에스엔알디</a>
+                            </li>
+                            <li>
+                                <a href="#"><span>7.</span>칼하트</a>
+                            </li>
+                            <li>
+                                <a href="#"><span>8.</span>챔피온</a>
+                            </li>
+                            <li>
+                                <a href="#"><span>9.</span>휠라</a>
+                            </li>
+                            <li>
+                                <a href="#"><span>10.</span>엘빈클로</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="shopRight">
+                    <div class="shop">
+                        <h3>쇼핑몰 순위</h3>
+                        <a href="#"><p>더보기</p></a>
+                    </div>
+                    <div class="shop-rank">
+                        <ul>
+                            <li>
+                                <a href="#"><span>1.</span>디스페로</a>
+                            </li>
+                            <li>
+                                <a href="#"><span>2.</span>로댄티</a>
+                            </li>
+                            <li>
+                                <a href="#"><span>3.</span>바이슬림</a>
+                            </li>
+                            <li>
+                                <a href="#"><span>4.</span>맨타임</a>
+                            </li>
+                            <li>
+                                <a href="#"><span>5.</span>오버클로젯</a>
+                            </li>
+                            <li>
+                                <a href="#"><span>6.</span>어둑</a>
+                            </li>
+                            <li>
+                                <a href="#"><span>7.</span>유아굿</a>
+                            </li>
+                            <li>
+                                <a href="#"><span>8.</span>나뽀</a>
+                            </li>
+                            <li>
+                                <a href="#"><span>9.</span>이룰</a>
+                            </li>
+                            <li>
+                                <a href="#"><span>10.</span>오오룩</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- logoSlide_section end -->
+
+    <div class="bestTitle">
+        <h2>best item</h2>
+    </div>
+    <div id="bestItem_section">
+        <ul>
+            <li>
+                <a href="#"><img src="img/bestitem1.jpg" alt="bestitem 첫번째 이미지"></a>
+                <div class="pinBox">
+                    <img class="none-active" src="img/pin2.png" alt="핀모양">
+                </div>
+                <span>바이슬림</span>
+                <a href="#"><b>코디만능 오버핏 긴팔티MU</b></a>
+                <div class="tagBox">
+                    <p># 이가격에? 봄.가을.간절기.겨울(이너) 실속 코디 :)</p>
+                </div>
+                <div class="priceBox">
+                    <h2>18,900원</h2>
+                    <img src="img/hot.png" alt="HOT 아이콘">
+                    <img src="img/trophy.png" alt="트로피 아이콘">
+                </div>
+                <div class="reviewBox">
+                    <img src="img/star2.png" alt="리뷰 별 아이콘">
+                    <b>4.8</b>
+                    <p>[999+명 평가]</p>
+                    <span>당일출고</span>
+                </div>
+            </li>
+            <li>
+                <a href="#"><img src="img/bestitem2.jpg" alt="bestitem 두번째 이미지"></a>
+                <div class="pinBox">
+                    <img class="none-active" src="img/pin2.png" alt="핀모양">
+                </div>
+                <span>로댄티</span>
+                <a href="#"><b>제인드 라운드 맨투맨 8color</b></a>
+                <div class="tagBox">
+                    <p># 요즘 코디가 고민이라면? 요녀석으로~</p>
+                </div>
+                <div class="priceBox">
+                    <h2>21,900원</h2>
+                    <img src="img/hot.png" alt="HOT 아이콘">
+                    <img src="img/trophy.png" alt="트로피 아이콘">
+                    <img src="img/sunglasses.png" alt="선글라스 아이콘">
+                </div>
+                <div class="reviewBox">
+                    <img src="img/star2.png" alt="리뷰 별 아이콘">
+                    <b>4.8</b>
+                    <p>[999+명 평가]</p>
+                    <span>당일출고</span>
+                </div>
+            </li>
+            <li>
+                <a href="#"><img src="img/bestitem3.jpg" alt="bestitem 세번째 이미지"></a>
+                <div class="pinBox">
+                    <img class="none-active" src="img/pin2.png" alt="핀모양">
+                </div>
+                <span>플레이마틴</span>
+                <a href="#"><b>트레이닝 롱 와이드 기모 오버핏 밴딩 빅사이즈 팬츠</b></a>
+                <div class="tagBox">
+                    <p># 하루종일 너무너무 편안한 팬츠랍니다 :)</p>
+                </div>
+                <div class="priceBox">
+                    <h2>22,600원</h2>
+                    <img src="img/hot.png" alt="HOT 아이콘">
+                </div>
+                <div class="reviewBox">
+                    <img src="img/star2.png" alt="리뷰 별 아이콘">
+                    <b>4.7</b>
+                    <p>[529명 평가]</p>
+                    <span class="late">배송지연</span>
+                </div>
+            </li>
+            <li>
+                <a href="#"><img src="img/bestitem4.jpg" alt="bestitem 네번째 이미지"></a>
+                <div class="pinBox">
+                    <img class="none-active" src="img/pin2.png" alt="핀모양">
+                </div>
+                <span>이앤디무드</span>
+                <a href="#"><b>양털 점퍼자켓 오버핏 아우터 패딩자켓 블루종 3color</b></a>
+                <div class="tagBox">
+                    <p># 보자마자 반한 소장템!! 주문 폭주!</p>
+                </div>
+                <div class="priceBox">
+                    <h2>56,900원</h2>
+                    <img src="img/hot.png" alt="HOT 아이콘">
+                    <img src="img/trophy.png" alt="트로피 아이콘">
+                    <img src="img/leaf2.png" alt="나뭇잎 아이콘">
+                </div>
+                <div class="reviewBox">
+                    <img src="img/star2.png" alt="리뷰 별 아이콘">
+                    <b>4.9</b>
+                    <p>[783명 평가]</p>
+                    <span>당일출고</span>
+                </div>
+            </li>
+            <li>
+                <a href="#"><img src="img/bestitem5.jpg" alt="bestitem 다섯번째 이미지"></a>
+                <div class="pinBox">
+                    <img class="none-active" src="img/pin2.png" alt="핀모양">
+                </div>
+                <span>오더클로젯</span>
+                <a href="#"><b>아델 후리스 오버핏 아노락 4color</b></a>
+                <div class="tagBox">
+                    <p># 누나가 보자마자 반한 item~</p>
+                </div>
+                <div class="priceBox">
+                    <h2>35,500원</h2>
+                    <img src="img/trophy.png" alt="trophy 아이콘">
+                    <img src="img/leaf2.png" alt="나뭇잎 아이콘">
+                </div>
+                <div class="reviewBox">
+                    <img src="img/star2.png" alt="리뷰 별 아이콘">
+                    <b>4.7</b>
+                    <p>[627명 평가]</p>
+                    <span>당일출고</span>
+                </div>
+            </li>
+            <li>
+                <a href="#"><img src="img/bestitem6.jpg" alt="bestitem 여섯번째 이미지"></a>
+                <div class="pinBox">
+                    <img class="none-active" src="img/pin2.png" alt="핀모양">
+                </div>
+                <span>플레이마틴</span>
+                <a href="#"><b>해비 오버핏 브이넥 이중지 니트 6color</b></a>
+                <div class="tagBox">
+                    <p># 오버핏의 끝판왕 입기만 하면 스포트라이트가!?</p>
+                </div>
+                <div class="priceBox">
+                    <h2>24,800원</h2>
+                    <img src="img/hot.png" alt="HOT 아이콘">
+                    <img src="img/trophy.png" alt="trophy 아이콘">
+                    <img src="img/leaf2.png" alt="나뭇잎 아이콘">
+                    <img src="img/sunglasses.png" alt="선글라스 아이콘">
+                </div>
+                <div class="reviewBox">
+                    <img src="img/star2.png" alt="">
+                    <b>4.8</b>
+                    <p>[999+명 평가]</p>
+                    <span>당일출고</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!-- bestItem_section end -->
+
+    <div class="newTitle">
+        <h2>new item</h2>
+    </div>
+    <div id="newItem_section">
+        <div class="newSlide-inner">
+            <div class="newSlide">
+                <div><img src="img/newitem1.jpg" alt="1번 신상품"></div>
+                <div><img src="img/newitem2.jpg" alt="2번 신상품"></div>
+                <div><img src="img/newitem3.png" alt="3번 신상품"></div>
+                <div><img src="img/newitem4.jpg" alt="4번 신상품"></div>
+                <div><img src="img/newitem5.jpg" alt="5번 신상품"></div>
+                <div><img src="img/newitem6.jpg" alt="6번 신상품"></div>
+                <div><img src="img/newitem7.jpg" alt="7번 신상품"></div>
+                <div><img src="img/newitem8.jpg" alt="8번 신상품"></div>
+                <div><img src="img/newitem9.jpg" alt="9번 신상품"></div>
+                <div><img src="img/newitem10.jpg" alt="10번 신상품"></div>
+                <div><img src="img/newitem11.jpg" alt="11번 신상품"></div>
+                <div><img src="img/newitem12.jpg" alt="12번 신상품"></div>
+                <div><img src="img/newitem13.jpg" alt="13번 신상품"></div>
+                <div><img src="img/newitem14.jpg" alt="14번 신상품"></div>
+            </div>
+        </div>
+        <div class="newSlide-inner2">
+            <div class="newSlide2" dir="rtl">
+                <div><img src="img/newitem15.jpg" alt="15번 신상품"></div>
+                <div><img src="img/newitem16.jpg" alt="16번 신상품"></div>
+                <div><img src="img/newitem17.jpg" alt="17번 신상품"></div>
+                <div><img src="img/newitem18.jpg" alt="18번 신상품"></div>
+                <div><img src="img/newitem19.jpg" alt="19번 신상품"></div>
+                <div><img src="img/newitem20.jpg" alt="20번 신상품"></div>
+                <div><img src="img/newitem21.jpg" alt="21번 신상품"></div>
+                <div><img src="img/newitem22.jpg" alt="22번 신상품"></div>
+                <div><img src="img/newitem23.jpg" alt="23번 신상품"></div>
+                <div><img src="img/newitem24.jpg" alt="24번 신상품"></div>
+                <div><img src="img/newitem25.jpg" alt="25번 신상품"></div>
+                <div><img src="img/newitem26.jpg" alt="26번 신상품"></div>
+                <div><img src="img/newitem27.jpg" alt="27번 신상품"></div>
+                <div><img src="img/newitem28.jpg" alt="28번 신상품"></div>
+            </div>
+        </div>
+    </div>
+    <!-- newItem_section end -->
+
+    <footer>
+        <ul>
+            <li>회사명: 레벨13</li>
+            <li>전화번호: 070-5165-7198</li>
+            <li>통신판매업: 제 2020-서울강남-01989호</li>
+            <li>(주)레벨13은 통신판매중개자이며 통신판매의 당사자가 아닙니다. 따라서 (주)레벨13은 상품거래정보 및 거래에 대한 책임을 지지 않습니다.</li>
+        </ul>
+    </footer>
+    <!-- footer end -->
+
+</main>
+
+
+</body>
+</html>
